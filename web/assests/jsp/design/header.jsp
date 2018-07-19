@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <link href="../../css/main.css" rel="stylesheet">
 <!DOCTYPE html>
  <header>
@@ -34,13 +35,17 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
       </li>
-       <li class="nav-item">
-        <a class="nav-link" href="" id="login">Login</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Sign up</a>
-      </li>
+       <li class="nav-item"> <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">
+        Login
+       </a></li>
+        <%@include file="login.jsp" %>
+
+      <li class="nav-item"> <a class="nav-link" data-toggle="modal" data-target="#signupModel">
+        Signup
+      </a></li>
+       <%@include file="signup.jsp" %>
     </ul>
+      
    
   </div>
 </nav>

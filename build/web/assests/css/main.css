@@ -2,7 +2,9 @@
 a{
     cursor: pointer;
 }
-
+.card{		
+	    cursor: pointer;		
+	}
 
 #navbarSupportedContent{
    padding: 10px;
@@ -48,6 +50,11 @@ background-color: black;
 /*  padding: 15px;*/
   width: auto;
    
+}
+
+/*------------------register form--------------*/
+.form-horizontal input{
+    
 }
 
 /*-------------------------cart---------------*/
@@ -147,6 +154,7 @@ background-color: black;
 .row{
     margin-left:50px;
      margin-right:50px;
+     padding-left: 43px;
 }
 
 .imag{

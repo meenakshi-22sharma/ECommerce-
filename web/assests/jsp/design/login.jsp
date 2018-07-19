@@ -5,30 +5,49 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<link href="../../css/login.css" rel="stylesheet">
-<!DOCTYPE html>
- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
- <link rel="stylesheet" href="../css/login.css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-       <div class="container">
-        <div class="card card-container">
-          
-            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+<html>
+    <head></head>
+    <body>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content" style="width: 425px;background-color: #F7F7F7;">
+     
+      <div class="modal-body text-center">
+        
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      
+           
+          <img id="profile-img" class="profile-img-card" src="../../images/login.png" style="width: 100px;">
             <p id="profile-name" class="profile-name-card"></p>
+            
             <form class="form-signin">
                 <span id="reauth-email" class="reauth-email"></span>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                <div id="remember" class="checkbox">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus style="margin-bottom: 10px;">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required style="margin-bottom: 10px; margin-top: 10px;">
+                <span class="help-block d-none d-print-block" style="float: left; color: crimson">Please enter valid username/password
+                 </span>
+               
+                
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit"">Login</button>
+            </form><!-- /form -->
+            
+            <div id="remember" class="checkbox">
                     <label>
                         <input type="checkbox" value="remember-me"> Remember me
                     </label>
                 </div>
-                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
-            </form><!-- /form -->
             <a href="#" class="forgot-password">
                 Forgot the password?
             </a>
-        </div><!-- /card-container -->
-    </div><!-- /container -->
+       
+   
+      </div>
+      
+    </div>
+  </div>
+</div>
+        
+</body>
+</html>

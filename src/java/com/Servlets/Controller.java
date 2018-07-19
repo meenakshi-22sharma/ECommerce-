@@ -20,12 +20,12 @@ public class Controller extends HttpServlet {
          String r;    
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-       r=req.getParameter("requestName");
+       r=req.getParameter("RedirectTo");
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-         r=req.getParameter("requestName");
+         r=req.getParameter("RedirectTo");
     }
 
       
