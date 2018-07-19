@@ -45,7 +45,7 @@ background-color: black;
 .navbar-brand {
   padding: 0px;
 }
-.navbar-brand>img {
+.navbar-brand img {
   height: 90px;
 /*  padding: 15px;*/
   width: auto;

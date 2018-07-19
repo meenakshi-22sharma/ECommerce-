@@ -19,7 +19,7 @@
         </button>
       
            
-          <img id="profile-img" class="profile-img-card" src="../../images/login.png" style="width: 100px;">
+          <img id="profile-img" class="profile-img-card" src="assests/images/login.png" style="width: 100px;">
             <p id="profile-name" class="profile-name-card"></p>
             
             <form class="form-signin">

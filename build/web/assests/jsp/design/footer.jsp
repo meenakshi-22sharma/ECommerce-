@@ -6,7 +6,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<link href="../../css/main.css" rel="stylesheet">
+
 <footer>
             <div class="foot">
                 <p>

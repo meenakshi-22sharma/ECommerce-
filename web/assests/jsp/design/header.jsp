@@ -6,7 +6,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-<link href="../../css/main.css" rel="stylesheet">
+
 <!DOCTYPE html>
  <header>
        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -52,7 +52,7 @@
 
             <nav class="logo mx-auto">
                  <div class="navbar-header">
-                     <a class="navbar-brand" href="#"><img src="../images/logo.png" alt="Mesh Melo " class="img-fluid" style="width: 200px;
+                     <a class="navbar-brand" href="#"><img src="assests/images/logo2.png" alt="Mesh Melo " class="img-fluid" style="width: 200px;
                 z-index: -1;
                  height: 200px;
                 position: absolute;
